@@ -13,10 +13,12 @@
     --fuente-texto-2:georgia;
 }
 /*  Globales **/
-html {
+html,body {
     font-size: 62.5%;
     box-sizing: border-box; /* Hack para Box Model **/
+    margin: 0;
 }
+
 .logo {
     width: 400px;
     height: 400px;
@@ -123,7 +125,8 @@ html {
        text-align: center;
        grid-column: 1 / -1;
        background-color: var(--color-Beigecalido);
-       padding: 3rem;
+       padding-bottom: 2.5rem;
+       padding-top: 2.5rem;
        width: 100%;
    }
 .autores h3 {
